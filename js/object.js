@@ -6,8 +6,8 @@ const person1 = { name: 'minsu', age: 22 };
 //create by Object.create -> non-primitive type  
 //"primitive tpye이 아닌 것"을 나타내고 싶을 때 사용
 const person2 = Object.create({ name: 'minsu', age: 22 });
-console.log(person1);
-console.log(person2.name);
+console.log(person1); //{ name: 'minsu', age: 22 }
+console.log(person2); //{}
 let object = {};
 object = { name: "minsu" };
 object = [{ name: "minsu" }];
